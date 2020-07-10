@@ -40,10 +40,10 @@
            
         ?>
         <form method="post" action="admin.php" enctype="multipart/form-data">
+<input type="texte" name="login" placeholder="Login"/>
+<input type="password" name="password" placeholder="Password"/>
 <input type="hidden" name="taille_maximale" value="2097152"/>
 <input name="userfile" type="file" accept="image/x-png,image/jpg,image/jpeg"/>
-<input type="text" name="titre" placeholder="Titre de la photo"/>
-<input type="text" name="description" placeholder="description de la photo"/>
 <input type="submit" name="bouton" value="Charger le fichier"/>
     </form>
 <?php

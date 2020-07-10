@@ -37,7 +37,7 @@ function login($pdo)
      
       $requete=$pdo->query("SELECT passwordd
       FROM utilisateurs 
-      WHERE login='$login'");
+      WHERE loginn='$login'");
     $res=$requete->fetchAll();
      
 
